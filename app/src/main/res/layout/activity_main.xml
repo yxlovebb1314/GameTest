@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="game.goldtel.com.gametest.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/bt_act_main_ballWithFinger"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="跟随手指移动的小球"
+                android:layout_gravity="center_horizontal"
+                />
+            <Button
+                android:id="@+id/bt_act_main_ballWithFingerSurface"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="跟随手指移动的小球_surfaceView"
+                android:layout_gravity="center_horizontal"
+                />
+            <Button
+                android:id="@+id/bt_act_main_bt3"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="bitmap绘制与画布旋转"
+                android:layout_gravity="center_horizontal"
+                />
+            <Button
+                android:id="@+id/bt_act_main_bt4"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="设置画布剪切区域"
+                android:layout_gravity="center_horizontal"
+                />
+            <Button
+                android:id="@+id/bt_act_main_bt5"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="自定义View的动画"
+                android:layout_gravity="center_horizontal" />
+
+
+            <Button
+                android:id="@+id/bt_act_main_bt6"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="动态位图"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <Button
+                android:id="@+id/bt_act_main_bt7"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="帧动画"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <Button
+                android:id="@+id/bt_act_main_bt8"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="用户控制角色移动"
+                android:layout_gravity="center_horizontal"
+                />
+            <Button
+                android:id="@+id/bt_act_main_bt9"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="矩形碰撞"
+                android:layout_gravity="center_horizontal"
+                />
+            <Button
+                android:id="@+id/bt_act_main_bt10"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Region碰撞"
+                android:layout_gravity="center_horizontal"
+                />
+            <Button
+                android:id="@+id/bt_act_main_bt11"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="SoundPool使用"
+                android:layout_gravity="center_horizontal"
+                />
+            <Button
+                android:id="@+id/bt_act_main_bt12"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="自定义摇杆控制器"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <Button
+                android:id="@+id/bt_act_main_bt13"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="摇杆控制机器人行走"
+                android:layout_gravity="center_horizontal"
+                />
+            <Button
+                android:id="@+id/bt_act_main_bt14"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="打飞机小游戏"
+                android:layout_gravity="center_horizontal"
+                />
+            <Button
+                android:id="@+id/bt_act_main_bt15"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="大图显示"
+                android:layout_gravity="center_horizontal"
+                />
+            <Button
+                android:id="@+id/bt_act_main_bt16"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="大图显示2_手指缩放"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

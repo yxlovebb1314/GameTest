@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="game.goldtel.com.gametest.activity.SoundPoolActivity">
+
+    <game.goldtel.com.gametest.test.SoundPoolSurfaceView
+        android:id="@+id/spsv_act_sound_pool_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/bt_act_sound_pool_bt_short"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="播放短音效"
+            />
+
+        <Button
+            android:id="@+id/bt_act_sound_pool_bt_long"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="播放长音效"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

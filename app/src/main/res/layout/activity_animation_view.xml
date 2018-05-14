@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="game.goldtel.com.gametest.activity.AnimationViewActivity">
+
+    <game.goldtel.com.gametest.test.AnimationView
+        android:id="@+id/av_act_ani_view_av"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/bt_act_ani_view_bt1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="渐变动画"
+            />
+        <Button
+            android:id="@+id/bt_act_ani_view_bt2"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="伸缩动画"
+            />
+        <Button
+            android:id="@+id/bt_act_ani_view_bt3"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="位移动画"
+            />
+        <Button
+            android:id="@+id/bt_act_ani_view_bt4"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="旋转动画"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
